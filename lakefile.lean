@@ -29,12 +29,14 @@ def RemoteGameServer : Dependency := {
 }
 
 /-
-Choose GameServer dependency depending on whether `-Klean4game.local` has been passed to `lake`.
+Choose GameServer dependency. In this workspace we default to the adjacent local
+`../lean4game/server` copy and only fall back to the remote package when
+`-Klean4game.remote` has been passed to `lake`.
 -/
 open Lean in
 #eval (do
-  let gameServerName := if get_config? lean4game.local |>.isSome then
-    ``LocalGameServer else ``RemoteGameServer
+  let gameServerName := if get_config? lean4game.remote |>.isSome then
+    ``RemoteGameServer else ``LocalGameServer
   modifyEnv (fun env => Lake.packageDepAttr.ext.addEntry env gameServerName)
   : Elab.Command.CommandElabM Unit)
 

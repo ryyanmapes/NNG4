@@ -1,0 +1,21 @@
+name: Trigger lean4game Docker build
+run-name: Rebuild lean4game Docker image with updated NNG4
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  trigger:
+    name: Dispatch Docker build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger lean4game docker.yml
+        run: |
+          curl -f -X POST \
+            -H "Authorization: token ${{ secrets.LEAN4GAME_PAT }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/repos/ryyanmapes/lean4game/actions/workflows/docker.yml/dispatches \
+            -d '{"ref":"main","inputs":{"nng4_ref":"${{ github.sha }}"}}'

@@ -1,7 +1,7 @@
 msgid ""
-msgstr "Project-Id-Version: Game v4.23.0\n"
+msgstr "Project-Id-Version: Game v4.28.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-27\n"
+"POT-Creation-Date: 2026-03-13\n"
 "Last-Translator: \n"
 "Language-Team: none\n"
 "Language: en\n"
@@ -144,16 +144,6 @@ msgid "# Summary\n"
 "will add §12 as a hypothesis."
 msgstr ""
 
-#. §0: `≤`
-#: Game.Levels.LessOrEqual.L11le_two
-msgid "Nice!\n"
-"\n"
-"The next step in the development of order theory is to develop\n"
-"the theory of the interplay between §0 and multiplication.\n"
-"If you've already done Multiplication World, you're now ready for\n"
-"Advanced Multiplication World. Click on \"Home\" to access it."
-msgstr ""
-
 #. §0: `a + b + c`
 #. §1: `(a + b) + c`
 #. §2: `+`
@@ -187,27 +177,6 @@ msgstr ""
 
 #: Game.Levels.AdvMultiplication.L07mul_ne_zero
 msgid "mul_ne_zero"
-msgstr ""
-
-#. §0: ```
-#. intro h
-#. rw [add_succ, add_succ, add_zero] at h
-#. repeat apply succ_inj at h
-#. apply zero_ne_succ at h
-#. exact h
-#. ```
-#. §1: $20 + 20 ≠ 41$
-#: Game.Levels.Implication.L11two_add_two_ne_five
-msgid "Here's my proof:\n"
-"§0\n"
-"\n"
-"Even though Lean is a theorem prover, right now it's pretty clear that we have not\n"
-"developed enough material to make it an adequate calculator. In Algorithm\n"
-"World, a more computer-sciency world, we will develop machinery which makes\n"
-"questions like this much easier, and goals like §1 feasible.\n"
-"Alternatively you can do more mathematics in Advanced Addition World, where we prove\n"
-"the lemmas needed to get a working theory of inequalities. Click \"Home\" and\n"
-"decide your route."
 msgstr ""
 
 #. §0: `2 + 2 = 4`
@@ -381,13 +350,6 @@ msgstr ""
 #: Game.Levels.Implication.L02exact2
 msgid "You can use §0 to rewrite at §1 instead\n"
 "of at the goal."
-msgstr ""
-
-#. §0: `add_comm`
-#. §1: `b`
-#. §2: `d`
-#: Game.Levels.Algorithm.L02add_algo1
-msgid "Finally use a targetted §0 to switch §1 and §2"
 msgstr ""
 
 #. §0: `repeat t`
@@ -725,6 +687,19 @@ msgstr ""
 msgid "Now you can §0."
 msgstr ""
 
+#. §0: `h2`
+#. §1: `x = 37`
+#. §2: `y = 42`
+#. §3: `apply`
+#. §4: `apply`
+#: Game.Levels.Implication.L03apply
+msgid "In this level, the hypothesis §0 is an *implication*. It says\n"
+"that *if* §1 *then* §2. We can use this\n"
+"hypothesis with the §3 tactic. Remember you can click on\n"
+"§4 or any other tactic on the right to see a detailed explanation\n"
+"of what it does, with examples."
+msgstr ""
+
 #. §0: $37$
 #. §1: $x$
 #. §2: $q$
@@ -1000,24 +975,6 @@ msgid "In this game you recreate the natural numbers §0 from the Peano axioms,\
 "learning the basics about theorem proving in Lean.\n"
 "\n"
 "This is a good first introduction to Lean!"
-msgstr ""
-
-#. §0: `Add a b`
-#. §1: `a + b`
-#. §2: `add_zero a : a + 0 = a`
-#. §3: `add_succ a b : a + succ b = succ (a + b)`
-#. §4: `zero_add a : 0 + a = a`
-#: Game.Levels.Tutorial.L05add_zero
-msgid "§0, with notation §1, is\n"
-"the usual sum of natural numbers. Internally it is defined\n"
-"via the following two hypotheses:\n"
-"\n"
-"* §2\n"
-"\n"
-"* §3\n"
-"\n"
-"Other theorems about naturals, such as §4, are proved\n"
-"by induction using these two basic theorems.\""
 msgstr ""
 
 #. §0: $x+1=4$
@@ -1653,6 +1610,23 @@ msgstr ""
 msgid "succ_add"
 msgstr ""
 
+#. §0: `add_comm`
+#. §1: `b`
+#. §2: `d`
+#: Game.Levels.Algorithm.L02add_algo1
+msgid "Finally use a targeted §0 to switch §1 and §2."
+msgstr ""
+
+#. §0: `≤`
+#: Game.Levels.LessOrEqual.L11le_two
+msgid "Nice!\n"
+"\n"
+"The next step in the development of order theory is to develop\n"
+"the theory of the interplay between §0 and multiplication.\n"
+"If you've already done Multiplication World, you're now ready for\n"
+"Advanced Multiplication World. Click on \"Home\" to access it."
+msgstr ""
+
 #. §0: `rw [zero_add] at «{h}»`
 #. §1: `zero_add`
 #. §2: `«{x}»`
@@ -1718,52 +1692,6 @@ msgid "In this world we define §0 and prove standard facts\n"
 "Click on \"Start\" to proceed."
 msgstr ""
 
-#: Game
-msgid "*Game version: 4.3*\n"
-"\n"
-"*Recent additions: bug fixes*\n"
-"\n"
-"## Progress saving\n"
-"\n"
-"The game stores your progress in your local browser storage.\n"
-"If you delete it, your progress will be lost!\n"
-"\n"
-"Warning: In most browsers, deleting cookies will also clear the local storage\n"
-"(or \"local site data\"). Make sure to download your game progress first!\n"
-"\n"
-"## Credits\n"
-"\n"
-"* **Creators:** Kevin Buzzard, Jon Eugster\n"
-"* **Original Lean3-version:** Kevin Buzzard, Mohammad Pedramfar\n"
-"* **Game Engine:** Alexander Bentkamp, Jon Eugster, Patrick Massot\n"
-"* **Additional levels:** Sian Carey, Ivan Farabella, Archie Browne.\n"
-"* **Additional thanks:** All the student beta testers, all the schools\n"
-"who invited Kevin to speak, and all the schoolkids who asked him questions\n"
-"about the material.\n"
-"\n"
-"## Resources\n"
-"\n"
-"* The [Lean Zulip chat](https://leanprover.zulipchat.com/) forum\n"
-"* [Original Lean3 version](https://github.com/ImperialCollegeLondon/natural_number_game/) (no longer maintained)\n"
-"\n"
-"## Problems?\n"
-"\n"
-"Please ask any questions about this game in the\n"
-"[Lean Zulip chat](https://leanprover.zulipchat.com/) forum, for example in\n"
-"the stream \"New Members\". The community will happily help. Note that\n"
-"the Lean Zulip chat is a professional research forum.\n"
-"Please use your full real name there, stay on topic, and be nice. If you're\n"
-"looking for somewhere less formal (e.g. you want to post natural number\n"
-"game memes) then head on over to the [Lean Discord](https://discord.gg/WZ9bs9UCvx).\n"
-"\n"
-"Alternatively, if you experience issues / bugs you can also open github issues:\n"
-"\n"
-"* For issues with the game engine, please open an\n"
-"[issue at the lean4game](https://github.com/leanprover-community/lean4game/issues) repo.\n"
-"* For issues about the game's content, please open an\n"
-"[issue at the NNG](https://github.com/hhu-adam/NNG4/issues) repo."
-msgstr ""
-
 #. §0: $a$
 #. §1: $m$
 #. §2: $n$
@@ -1772,37 +1700,6 @@ msgstr ""
 #: Game.Levels.Power.L07mul_pow
 #: Game.Levels.Power.L08pow_pow
 msgid "For all naturals §0, §1, §2, we have §3."
-msgstr ""
-
-#. §0: ```lean
-#. nth_rewrite 2 [two_eq_succ_one] -- only change the second `2` to `succ 1`.
-#. rw [add_succ]
-#. rw [one_eq_succ_zero]
-#. rw [add_succ, add_zero] -- two rewrites at once
-#. rw [← three_eq_succ_two] -- change `succ 2` to `3`
-#. rw [← four_eq_succ_three]
-#. rfl
-#. ```
-#. §1: `</>`
-#. §2: `>_`
-#. §3: `induction`
-#: Game.Levels.Tutorial.L08twoaddtwo
-msgid "Here is an example proof of 2+2=4 showing off various techniques.\n"
-"\n"
-"§0\n"
-"\n"
-"Optional extra: you can run this proof yourself. Switch the game into \"Editor mode\" by clicking\n"
-"on the §1 button in the top right. You can now see your proof\n"
-"written as several lines of code. Move your cursor between lines to see\n"
-"the goal state at any point. Now cut and paste your code elsewhere if you\n"
-"want to save it, and paste the above proof in instead. Move your cursor\n"
-"around to investigate. When you've finished, click the §2 button in the top right to\n"
-"move back into \"Typewriter mode\".\n"
-"\n"
-"You have finished tutorial world!\n"
-"Click \"Home\" to go back to the\n"
-"overworld, and select Addition World, where you will learn\n"
-"about the §3 tactic."
 msgstr ""
 
 #: Game.Levels.AdvMultiplication.L09mul_left_cancel
@@ -1932,19 +1829,6 @@ msgstr ""
 #. §0: `add_succ`
 #: Game.Levels.Tutorial.L06add_zero2
 msgid "Let's now learn about Peano's second axiom for addition, §0."
-msgstr ""
-
-#. §0: `h2`
-#. §1: `x = 37`
-#. §2: `y = 42`
-#. §3: `apply`
-#. §4: `apply`
-#: Game.Levels.Implication.L03apply
-msgid "In this level, the hypotheses §0 is an *implication*. It says\n"
-"that *if* §1 *then* §2. We can use this\n"
-"hypothesis with the §3 tactic. Remember you can click on\n"
-"§4 or any other tactic on the right to see a detailed explanation\n"
-"of what it does, with examples."
 msgstr ""
 
 #. §0: `add_comm b c`
@@ -2459,6 +2343,52 @@ msgid "## Summary\n"
 "as mathematicians are concerned, and who cares what the definition of addition is).*"
 msgstr ""
 
+#: Game
+msgid "*Game version: 4.3*\n"
+"\n"
+"*Recent additions: bug fixes*\n"
+"\n"
+"## Progress saving\n"
+"\n"
+"The game stores your progress in your local browser storage.\n"
+"If you delete it, your progress will be lost!\n"
+"\n"
+"Warning: In most browsers, deleting cookies will also clear the local storage\n"
+"(or \"local site data\"). Make sure to download your game progress first!\n"
+"\n"
+"## Credits\n"
+"\n"
+"* **Creators:** Kevin Buzzard, Jon Eugster\n"
+"* **Original Lean3-version:** Kevin Buzzard, Mohammad Pedramfar\n"
+"* **Game Engine:** Alexander Bentkamp, Jon Eugster, Patrick Massot\n"
+"* **Additional levels:** Sian Carey, Ivan Farabella, Archie Browne.\n"
+"* **Additional thanks:** All the student beta testers, all the schools\n"
+"who invited Kevin to speak, and all the schoolkids who asked him questions\n"
+"about the material.\n"
+"\n"
+"## Resources\n"
+"\n"
+"* The [Lean Zulip chat](https://leanprover.zulipchat.com/) forum\n"
+"* [Original Lean3 version](https://github.com/ImperialCollegeLondon/natural_number_game/) (no longer maintained)\n"
+"\n"
+"## Problems?\n"
+"\n"
+"Please ask any questions about this game in the\n"
+"[Lean Zulip chat](https://leanprover.zulipchat.com/) forum, for example in\n"
+"the stream \"New Members\". The community will happily help. Note that\n"
+"the Lean Zulip chat is a professional research forum.\n"
+"Please use your full real name there, stay on topic, and be nice. If you're\n"
+"looking for somewhere less formal (e.g. you want to post natural number\n"
+"game memes) then head on over to the [Lean Discord](https://discord.gg/WZ9bs9UCvx).\n"
+"\n"
+"Alternatively, if you experience issues / bugs you can also open github issues:\n"
+"\n"
+"* For issues with the game engine, please open an\n"
+"[issue at the lean4game](https://github.com/leanprover-community/lean4game/issues) repo.\n"
+"* For issues about the game's content, please open an\n"
+"[issue at the NNG](https://github.com/hhu-adam/NNG4/issues) repo."
+msgstr ""
+
 #. §0: `b = 0`
 #. §1: `a * b = 0`
 #. §2: `X ≠ 0`
@@ -2623,20 +2553,6 @@ msgstr ""
 
 #: Game
 msgid "Natural Number Game"
-msgstr ""
-
-#. §0: ```
-#. rw [add_comm]
-#. exact add_right_eq_zero b a
-#. ```
-#. §1: `≤`
-#: Game.Levels.AdvAddition.L06add_left_eq_zero
-msgid "How about this for a proof:\n"
-"\n"
-"§0\n"
-"\n"
-"That's the end of Advanced Addition World! You'll need these theorems\n"
-"for the next world, §1 World. Click on \"Home\" to access it."
 msgstr ""
 
 #. §0: `n`
@@ -2904,6 +2820,37 @@ msgid "You can start a proof by induction on §0 by typing:\n"
 "§1."
 msgstr ""
 
+#. §0: ```lean
+#. nth_rewrite 2 [two_eq_succ_one] -- only change the second `2` to `succ 1`.
+#. rw [add_succ]
+#. rw [one_eq_succ_zero]
+#. rw [add_succ, add_zero] -- two rewrites at once
+#. rw [← three_eq_succ_two] -- change `succ 2` to `3`
+#. rw [← four_eq_succ_three]
+#. rfl
+#. ```
+#. §1: `</>`
+#. §2: `>_`
+#. §3: `induction`
+#: Game.Levels.Tutorial.L08twoaddtwo
+msgid "Here is an example proof of 2+2=4 showing off various techniques.\n"
+"\n"
+"§0\n"
+"\n"
+"Optional extra: you can run this proof yourself. Switch the game into \"Editor mode\" by clicking\n"
+"on the §1 button in the top right. You can now see your proof\n"
+"written as several lines of code. Move your cursor between lines to see\n"
+"the goal state at any point. Now cut and paste your code elsewhere if you\n"
+"want to save it, and paste the above proof in instead. Move your cursor\n"
+"around to investigate. When you've finished, click the §2 button in the top right to\n"
+"move back into \"Typewriter mode\".\n"
+"\n"
+"You have finished tutorial world!\n"
+"Click \"Home\" to go back to the\n"
+"overworld, and select Addition World, where you will learn\n"
+"about the §3 tactic."
+msgstr ""
+
 #. §0: `Pow a b`
 #. §1: `a ^ b`
 #. §2: `pow_zero a : a ^ 0 = 1`
@@ -2997,6 +2944,27 @@ msgstr ""
 #: Game.Levels.AdvMultiplication.L02mul_left_ne_zero
 msgid "If you have completed Algorithm World then you can use the §0 tactic\n"
 "here. If not then I'll talk you through a manual approach."
+msgstr ""
+
+#. §0: $2y=2(x+7)$
+#. §1: `h`
+#. §2: $y = x + 7$
+#. §3: `h`
+#. §4: `h`
+#. §5: `x`
+#. §6: `rfl`
+#. §7: $y$
+#. §8: `h`
+#. §9: `rw`
+#: Game.Levels.Tutorial.L02rw
+msgid "In this level the *goal* is §0 but to help us we\n"
+"have an *assumption* §1 saying that §2. Check that you can see §3 in\n"
+"your list of assumptions. Lean thinks of §4 as being a secret proof of the\n"
+"assumption, rather like §5 is a secret number.\n"
+"\n"
+"Before we can use §6, we have to \"substitute in for §7\".\n"
+"We do this in Lean by *rewriting* the goal with §8,\n"
+"using the §9 tactic."
 msgstr ""
 
 #. §0: `zero_ne_succ n`
@@ -3156,6 +3124,20 @@ msgstr ""
 #. §4: `x = 2`
 #: Game.Levels.LessOrEqual.L11le_two
 msgid "§0 is a proof that if §1 then §2 or §3 or §4."
+msgstr ""
+
+#. §0: ```
+#. rw [add_comm]
+#. exact add_right_eq_zero b a
+#. ```
+#. §1: `≤`
+#: Game.Levels.AdvAddition.L06add_left_eq_zero
+msgid "How about this for a proof:\n"
+"\n"
+"§0\n"
+"\n"
+"That's the end of Advanced Addition World! You'll need these theorems\n"
+"for the next world, §1 World. Click on \"Home\" to access it."
 msgstr ""
 
 #. §0: `Mul a b`
@@ -4085,27 +4067,6 @@ msgid "How should we define §0? Just like addition, we need to give definitions
 "Let's get started."
 msgstr ""
 
-#. §0: $2y=2(x+7)$
-#. §1: `h`
-#. §2: $y = x + 7$
-#. §3: `h`
-#. §4: `h`
-#. §5: `x`
-#. §6: `rfl`
-#. §7: $y$
-#. §8: `h`
-#. §9: `rw`
-#: Game.Levels.Tutorial.L02rw
-msgid "In this level the *goal* is §0 but to help us we\n"
-"have an *assumption* §1 saying that §2. Check that you can see §3 in\n"
-"your list of assumptions. Lean thinks of §4 as being a secret proof of the\n"
-"assumption, rather like §5 is a secret number.\n"
-"\n"
-"Before we can use §6, we have to \"substitute in for §7\".\n"
-"We do this in Lean by *rewriting* the proof §8,\n"
-"using the §9 tactic."
-msgstr ""
-
 #. §0: ```
 #. symm
 #. exact zero_ne_one
@@ -4229,19 +4190,6 @@ msgid "Did you use induction on §0?\n"
 "(although you'll lose your own proof this way). Click §4 to get\n"
 "back to command line mode.\n"
 "§5"
-msgstr ""
-
-#. §0: `a = 0`
-#. §1: `x + a = x`
-#: Game.Levels.Addition.L05add_right_comm
-msgid "You've now seen all the tactics you need to beat the final boss of the game.\n"
-"You can begin the journey towards this boss by entering Multiplication World.\n"
-"\n"
-"Or you can go off the beaten track and learn some new tactics in Implication\n"
-"World. These tactics let you prove more facts about addition, such as\n"
-"how to deduce §0 from §1.\n"
-"\n"
-"Click \"Home\" and make your choice."
 msgstr ""
 
 #: Game.Levels.LessOrEqual.L05le_zero
@@ -4432,6 +4380,24 @@ msgid "This level is more important than you think; it plays\n"
 "a useful role when battling a big boss later on."
 msgstr ""
 
+#. §0: `Add a b`
+#. §1: `a + b`
+#. §2: `add_zero a : a + 0 = a`
+#. §3: `add_succ a b : a + succ b = succ (a + b)`
+#. §4: `zero_add a : 0 + a = a`
+#: Game.Levels.Tutorial.L05add_zero
+msgid "§0, with notation §1, is\n"
+"the usual sum of natural numbers. Internally it is defined\n"
+"via the following two hypotheses:\n"
+"\n"
+"* §2\n"
+"\n"
+"* §3\n"
+"\n"
+"Other theorems about naturals, such as §4, are proved\n"
+"by induction using these two basic theorems."
+msgstr ""
+
 #. §0: `cases h2 with h0 h1`
 #: Game.Levels.AdvMultiplication.L06mul_right_eq_one
 msgid "Now §0 and deal with the two\n"
@@ -4485,6 +4451,19 @@ msgstr ""
 
 #: Game.Levels.AdvMultiplication
 msgid "Advanced Multiplication World"
+msgstr ""
+
+#. §0: `a = 0`
+#. §1: `x + a = x`
+#: Game.Levels.Addition.L05add_right_comm
+msgid "You've now seen all the tactics you need to beat the final boss of the game.\n"
+"You can begin the journey towards this boss by entering Multiplication World.\n"
+"\n"
+"Or you can go off the beaten track and learn some new tactics in Implication\n"
+"World. These tactics let you prove more facts about addition, such as\n"
+"how to deduce §0 from §1.\n"
+"\n"
+"Click \"Home\" and make your choice."
 msgstr ""
 
 #. §0: $2$
@@ -4548,6 +4527,27 @@ msgstr ""
 
 #: Game.Levels.Power.L03pow_one
 msgid "pow_one"
+msgstr ""
+
+#. §0: ```
+#. intro h
+#. rw [add_succ, add_succ, add_zero] at h
+#. repeat apply succ_inj at h
+#. apply zero_ne_succ at h
+#. exact h
+#. ```
+#. §1: $20 + 20 ≠ 41$
+#: Game.Levels.Implication.L11two_add_two_ne_five
+msgid "Here's my proof:\n"
+"§0\n"
+"\n"
+"Even though Lean is a theorem prover, right now it's pretty clear that we have not\n"
+"developed enough material to make it an adequate calculator. In Algorithm\n"
+"World, a more computer-sciency world, we will develop machinery which makes\n"
+"questions like this much easier, and goals like §1 feasible.\n"
+"Alternatively you can do more mathematics in Advanced Addition World, where we prove\n"
+"the lemmas needed to get a working theory of inequalities. Click \"Home\" and\n"
+"decide your route."
 msgstr ""
 
 #. §0: `rw [two_eq_succ_one, one_eq_succ_zero]`
