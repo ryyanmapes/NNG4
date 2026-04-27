@@ -65,6 +65,7 @@ into the goal
 TacticDoc «repeat»
 
 NewTheorem MyNat.add_zero
+VisualEmphasize MyNat.add_zero
 
 Introduction
 "

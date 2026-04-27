@@ -2,6 +2,7 @@ import Game.Levels.Algorithm.L06is_zero
 
 World "Algorithm"
 Level 7
+VisualSkipLevel
 Title "An algorithm for equality"
 
 TheoremTab "Peano"

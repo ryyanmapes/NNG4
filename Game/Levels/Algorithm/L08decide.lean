@@ -3,6 +3,7 @@ import Game.MyNat.DecidableEq
 
 World "Algorithm"
 Level 8
+VisualSkipLevel
 Title "decide"
 
 TheoremTab "Peano"

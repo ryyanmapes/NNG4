@@ -48,6 +48,7 @@ pathological function.
 TheoremDoc MyNat.succ_inj as "succ_inj" in "Peano"
 
 NewTheorem MyNat.succ_inj
+VisualEmphasize MyNat.succ_inj
 
 /-- If $x+1=4$ then $x=3$. -/
 Statement (x : ℕ) (h : x + 1 = 4) : x = 3 := by

@@ -2,6 +2,7 @@ import Game.Levels.Addition
 
 World "Algorithm"
 Level 1
+VisualSkipLevel
 Title "add_left_comm"
 
 TheoremTab "+"

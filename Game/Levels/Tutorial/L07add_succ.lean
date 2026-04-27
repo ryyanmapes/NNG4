@@ -14,6 +14,7 @@ namespace MyNat
 TheoremDoc MyNat.add_succ as "add_succ" in "+"
 
 NewTheorem MyNat.add_succ
+VisualEmphasize MyNat.add_succ
 
 /-- `succ_eq_add_one n` is the proof that `succ n = n + 1`. -/
 TheoremDoc MyNat.succ_eq_add_one as "succ_eq_add_one" in "+"

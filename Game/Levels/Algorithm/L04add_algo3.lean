@@ -3,6 +3,7 @@ import ImportGraph
 
 World "Algorithm"
 Level 4
+VisualSkipLevel
 Title "the simplest approach"
 
 TheoremTab "+"

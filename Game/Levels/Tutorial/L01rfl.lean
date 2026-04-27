@@ -47,6 +47,7 @@ as mathematicians are concerned, and who cares what the definition of addition i
 TacticDoc rfl
 
 NewTactic rfl
+VisualGoalInfoOnGoal below true "37 * x + q = 37 * x + q" show "Equalities like $a = a$ are trivially true. \n Click goals of this form to satisfy them with 'rfl'."
 
 Introduction
 "

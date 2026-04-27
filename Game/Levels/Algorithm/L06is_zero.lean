@@ -2,6 +2,7 @@ import Game.Levels.Algorithm.L05pred
 
 World "Algorithm"
 Level 6
+VisualSkipLevel
 Title "is_zero"
 
 TheoremTab "Peano"

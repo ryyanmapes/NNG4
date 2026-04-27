@@ -4,6 +4,7 @@ import Game.MyNat.Addition
 
 World "Tutorial"
 Level 6
+VisualSkipLevel
 Title "Precision rewriting"
 
 Introduction

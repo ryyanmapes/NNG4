@@ -39,6 +39,7 @@ TheoremDoc MyNat.four_eq_succ_three as "four_eq_succ_three" in "012"
 NewDefinition MyNat
 NewTheorem MyNat.one_eq_succ_zero MyNat.two_eq_succ_one MyNat.three_eq_succ_two
   MyNat.four_eq_succ_three
+VisualTransformReverseInfoOnGoal "2 = succ (succ 0)" show "Equality theorems are bidirectional.\nSwap the rewriting direction by clicking this button (or by right-clicking anywhere in the lower menu)."
 
 Introduction
 "

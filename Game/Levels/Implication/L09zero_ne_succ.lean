@@ -19,6 +19,7 @@ you can `apply zero_ne_succ at h` if `h` is a proof of `0 = succ n`.
 TheoremDoc MyNat.zero_ne_succ as "zero_ne_succ" in "Peano"
 
 NewTheorem MyNat.zero_ne_succ
+VisualEmphasize MyNat.zero_ne_succ
 
 Introduction "
 As warm-up for `2 + 2 ≠ 5` let's prove `0 ≠ 1`. To do this we need to

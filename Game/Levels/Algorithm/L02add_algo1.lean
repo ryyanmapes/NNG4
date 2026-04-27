@@ -2,6 +2,7 @@ import Game.Levels.Algorithm.L01add_left_comm
 
 World "Algorithm"
 Level 2
+VisualSkipLevel
 Title "making life easier"
 
 TheoremTab "+"

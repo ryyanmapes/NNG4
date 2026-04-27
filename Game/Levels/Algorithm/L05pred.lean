@@ -3,6 +3,7 @@ import Game.Levels.Implication
 
 World "Algorithm"
 Level 5
+VisualSkipLevel
 Title "pred"
 
 TheoremTab "Peano"

@@ -2,6 +2,7 @@ import Game.Levels.Algorithm.L08decide
 
 World "Algorithm"
 Level 9
+VisualSkipLevel
 Title "decide again"
 
 TheoremTab "Peano"
