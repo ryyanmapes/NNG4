@@ -3,6 +3,7 @@ import Game.Levels.Power.L09add_sq
 World "Power"
 Level 10
 Title "Fermat's Last Theorem"
+VisualSkipLevel
 
 namespace MyNat
 

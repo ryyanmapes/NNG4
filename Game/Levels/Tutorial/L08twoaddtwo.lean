@@ -5,6 +5,9 @@ import Game.Levels.Tutorial.L07add_succ
 World "Tutorial"
 Level 8
 Title "2+2=4"
+VisualLevelNumber "Boss"
+VisualColorScheme red
+VisualDramaticStart
 
 TheoremTab "012"
 

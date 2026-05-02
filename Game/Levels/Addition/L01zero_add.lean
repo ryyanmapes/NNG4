@@ -33,6 +33,10 @@ See if you can do your first induction proof in Lean.
 back to \"Typewriter mode\" by clicking the `>_` button in the top right.)
 "
 
+VisualTacticHypInfo induction n "Use the induction tactic to write proofs by induction on a variable. \n Drag the induction tactic to a natural number variable hypothesis to induct on it."
+
+VisualProofGraphInfo "There are now two goals to prove: the base case when $n = 0$, and the inductive step where we assume $n$ and must show $n+1$. \n Use the proof stream graph to prove each goal seperately."
+
 /--
 `zero_add x` is the proof of `0 + x = x`.
 
