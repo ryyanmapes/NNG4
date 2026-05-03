@@ -71,3 +71,5 @@ Statement (x : ℕ) (h : x + 1 = 4) : x = 3 := by
   exact h
 
 Conclusion "In the next level, we'll do the same proof but backwards."
+
+VisualGoalInfoOnGoal below false "x = 3" show "Theorems are hypotheses we can use in any context. \n Dragging 'succ_inj' onto a hypothesis matching the left side of its implication will specialize it automatically. \n Alternatively, you can drag 'succ_inj' to the goal and work from there."

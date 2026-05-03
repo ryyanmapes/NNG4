@@ -52,3 +52,5 @@ Statement (x y : ℕ) (h1 : x = 37) (h2 : x = 37 → y = 42) : y = 42 := by
   apply h2 at h1
   Hint "Now finish using the `exact` tactic."
   exact h1
+
+VisualGoalInfoOnGoal below false "y = 42" show "You can solve this level in two ways. \n You could create a $y = 42$ hypothesis by dragging $h1$ onto $h2$, then solving with 'exact'. \n Alternatively, you could drag $h2$ onto the goal to use 'apply', then drag $h1$ to the new goal, $x = 37$."

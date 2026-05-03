@@ -3,6 +3,7 @@ import Game.Levels.Implication.L04succ_inj
 World "Implication"
 Level 5
 Title "Arguing backwards"
+VisualSkipLevel
 
 TheoremTab "Peano"
 
