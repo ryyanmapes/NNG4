@@ -30,3 +30,5 @@ repeat rw [zero_add] at h
 exact h
 ```
 "
+
+VisualHypInfoOnHyp h "0 + x = 0 + y + 2" show "You can enter hypotheses in Transformation Mode by double-clicking them."
