@@ -23,6 +23,7 @@ TacticDoc intro
 
 NewTactic intro
 VisualUnlockTactic revert
+VisualEmphasize revert
 
 
 Introduction
@@ -40,5 +41,5 @@ Statement (x : ℕ) : x = 37 → x = 37 := by
   exact h
 
 
-VisualGoalInfoOnGoal below true "x = 37 → x = 37" show "Clicking on a goal with an implication will apply the 'intro' tactic to add the left side of the implication as a hypothesis. \n Note that this process can be undone by dragging the 'revert' tactic to the new hypothesis. This will be important to perform induction over two variables!"
-VisualGoalInfoOnGoal below false "x = 37" show "Clicking on a goal with an implication will apply the 'intro' tactic to add the left side of the implication as a hypothesis. \n Note that this process can be undone by dragging the 'revert' tactic to the new hypothesis. This will be important to perform induction over two variables!"
+VisualGoalInfoOnGoal below true "x = 37 → x = 37" show "Clicking on a goal with an implication will apply the 'intro' tactic to add the left side of the implication as a hypothesis.\n\nNote that this process can be undone by dragging the 'revert' tactic to the new hypothesis."
+VisualGoalInfoOnGoal below false "x = 37" show "Clicking on a goal with an implication will apply the 'intro' tactic to add the left side of the implication as a hypothesis.\n\nNote that this process can be undone by dragging the 'revert' tactic to the new hypothesis."
