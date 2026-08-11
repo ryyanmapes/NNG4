@@ -2,7 +2,7 @@ import Game.Levels.Implication.L08ne
 
 World "Implication"
 Level 9
-Title "zero_ne_succ"
+Title "`zero_ne_succ`"
 
 TheoremTab "Peano"
 

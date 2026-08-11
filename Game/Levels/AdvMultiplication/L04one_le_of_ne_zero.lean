@@ -2,7 +2,7 @@ import Game.Levels.AdvMultiplication.L03eq_succ_of_ne_zero
 
 World "AdvMultiplication"
 Level 4
-Title "one_le_of_ne_zero"
+Title "`one_le_of_ne_zero`"
 
 TheoremTab "≤"
 

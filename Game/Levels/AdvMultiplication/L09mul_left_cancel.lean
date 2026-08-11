@@ -2,7 +2,7 @@ import Game.Levels.AdvMultiplication.L08mul_eq_zero
 
 World "AdvMultiplication"
 Level 9
-Title "mul_left_cancel"
+Title "`mul_left_cancel`"
 
 TheoremTab "*"
 

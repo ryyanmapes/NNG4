@@ -2,7 +2,7 @@ import Game.Levels.AdvMultiplication.L09mul_left_cancel
 
 World "AdvMultiplication"
 Level 10
-Title "mul_right_eq_self"
+Title "`mul_right_eq_self`"
 
 TheoremTab "*"
 

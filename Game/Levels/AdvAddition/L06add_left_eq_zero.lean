@@ -2,7 +2,7 @@ import Game.Levels.AdvAddition.L05add_right_eq_zero
 
 World "AdvAddition"
 Level 6
-Title "add_left_eq_zero"
+Title "`add_left_eq_zero`"
 
 TheoremTab "+"
 

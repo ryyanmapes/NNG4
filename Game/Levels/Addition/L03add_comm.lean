@@ -3,7 +3,7 @@ import Game.Levels.Addition.L02succ_add
 
 World "Addition"
 Level 3
-Title "add_comm (level boss)"
+Title "Commutativity of Addition"
 
 namespace MyNat
 

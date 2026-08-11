@@ -2,7 +2,7 @@ import Game.Levels.Implication.L01exact
 
 World "Implication"
 Level 2
-Title "`exact` practice."
+Title "`exact` Practice"
 
 namespace MyNat
 

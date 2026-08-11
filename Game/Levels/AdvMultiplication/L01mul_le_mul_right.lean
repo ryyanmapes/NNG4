@@ -3,7 +3,7 @@ import Game.Levels.Multiplication
 
 World "AdvMultiplication"
 Level 1
-Title "mul_le_mul_right"
+Title "`mul_le_mul_right`"
 
 TheoremTab "*"
 

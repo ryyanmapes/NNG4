@@ -2,7 +2,7 @@ import Game.Levels.LessOrEqual.L02zero_le
 
 World "LessOrEqual"
 Level 3
-Title "x ≤ succ x"
+Title "Successor is Increasing"
 
 namespace MyNat
 

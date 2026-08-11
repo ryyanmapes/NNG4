@@ -1,8 +1,15 @@
 import Game.MyNat.PeanoAxioms
-import Game.Levels.Algorithm.L07succ_ne_succ -- succ_ne_succ
 import Game.Tactic.Decide -- modified decide tactic
 
 namespace MyNat
+
+private theorem succ_ne_zero' (a : MyNat) : succ a ≠ 0 := by
+  intro h
+  cases h
+
+private theorem succ_ne_succ' (m n : MyNat) (h : m ≠ n) : succ m ≠ succ n := by
+  intro hsucc
+  exact h (succ_inj m n hsucc)
 
 instance instDecidableEq : DecidableEq MyNat
 | 0, 0 => isTrue <| by
@@ -10,7 +17,7 @@ instance instDecidableEq : DecidableEq MyNat
   rfl
 | succ m, 0 => isFalse <| by
   show succ m ≠ 0
-  exact succ_ne_zero m
+  exact succ_ne_zero' m
 | 0, succ n => isFalse <| by
   show 0 ≠ succ n
   exact zero_ne_succ n
@@ -19,7 +26,6 @@ instance instDecidableEq : DecidableEq MyNat
   | isTrue (h : m = n) => isTrue <| by
     show succ m = succ n
     rw [h]
-    rfl
   | isFalse (h : m ≠ n) => isFalse <| by
     show succ m ≠ succ n
-    exact succ_ne_succ m n h
+    exact succ_ne_succ' m n h

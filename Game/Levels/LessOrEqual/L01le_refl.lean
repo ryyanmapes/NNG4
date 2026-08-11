@@ -5,7 +5,7 @@ import Game.Levels.AdvAddition
 
 World "LessOrEqual"
 Level 1
-Title "The `use` tactic"
+Title "`use`"
 
 namespace MyNat
 

@@ -4,7 +4,7 @@ import Game.MyNat.Power
 
 World "Power"
 Level 1
-Title "zero_pow_zero"
+Title "`zero_pow_zero`"
 
 namespace MyNat
 

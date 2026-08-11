@@ -2,7 +2,7 @@ import Game.Levels.AdvAddition.L02add_left_cancel
 
 World "AdvAddition"
 Level 3
-Title "add_left_eq_self"
+Title "`add_left_eq_self`"
 
 namespace MyNat
 

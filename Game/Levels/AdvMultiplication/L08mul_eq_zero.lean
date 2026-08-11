@@ -2,7 +2,7 @@ import Game.Levels.AdvMultiplication.L07mul_ne_zero
 
 World "AdvMultiplication"
 Level 8
-Title "mul_eq_zero"
+Title "`mul_eq_zero`"
 
 TheoremTab "*"
 

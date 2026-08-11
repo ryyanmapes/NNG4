@@ -1,7 +1,7 @@
 import Game.Levels.LessOrEqual.L09succ_le_succ
 World "LessOrEqual"
 Level 10
-Title "x ≤ 1"
+Title "`le_one`"
 
 TheoremTab "≤"
 

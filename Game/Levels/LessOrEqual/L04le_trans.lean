@@ -2,7 +2,7 @@ import Game.Levels.LessOrEqual.L03le_succ_self
 
 World "LessOrEqual"
 Level 4
-Title "x ≤ y and y ≤ z implies x ≤ z"
+Title "Transitivity"
 
 TheoremTab "≤"
 

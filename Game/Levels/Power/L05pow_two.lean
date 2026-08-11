@@ -2,7 +2,7 @@ import Game.Levels.Power.L04one_pow
 
 World "Power"
 Level 5
-Title "pow_two"
+Title "`pow_two`"
 
 namespace MyNat
 

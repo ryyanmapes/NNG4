@@ -3,7 +3,7 @@ import Game.Levels.Addition.L01zero_add
 
 World "Addition"
 Level 2
-Title "succ_add"
+Title "`succ_add`"
 
 namespace MyNat
 

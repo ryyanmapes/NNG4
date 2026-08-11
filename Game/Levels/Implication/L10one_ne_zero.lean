@@ -1,7 +1,7 @@
 import Game.Levels.Implication.L09zero_ne_succ
 World "Implication"
 Level 10
-Title "1 ≠ 0"
+Title "`1 ≠ 0`"
 
 TheoremTab "012"
 

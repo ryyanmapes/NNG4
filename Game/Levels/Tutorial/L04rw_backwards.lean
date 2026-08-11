@@ -3,7 +3,8 @@ import Game.MyNat.TutorialLemmas
 
 World "Tutorial"
 Level 4
-Title "rewriting backwards"
+Title "Rewriting Backwards ⏭️"
+
 VisualSkipLevel
 
 TheoremTab "012"

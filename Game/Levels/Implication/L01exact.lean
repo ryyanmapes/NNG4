@@ -3,7 +3,7 @@ import Game.MyNat.PeanoAxioms
 
 World "Implication"
 Level 1
-Title "The `exact` tactic"
+Title "`exact`"
 
 namespace MyNat
 

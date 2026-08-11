@@ -2,7 +2,7 @@ import Game.Levels.Implication.L10one_ne_zero
 
 World "Implication"
 Level 11
-Title "2 + 2 ≠ 5"
+Title "`2 + 2 ≠ 5`"
 
 TheoremTab "Peano"
 
@@ -32,9 +32,9 @@ exact h
 ```
 
 Even though Lean is a theorem prover, right now it's pretty clear that we have not
-developed enough material to make it an adequate calculator. In Algorithm
-World, a more computer-sciency world, we will develop machinery which makes
-questions like this much easier, and goals like $20 + 20 ≠ 41$ feasible.
+developed enough material to make it an adequate calculator. A decision
+procedure can make questions like this much easier, and goals like
+$20 + 20 ≠ 41$ feasible.
 Alternatively you can do more mathematics in Advanced Addition World, where we prove
 the lemmas needed to get a working theory of inequalities. Click \"Home\" and
 decide your route."

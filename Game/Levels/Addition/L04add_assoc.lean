@@ -3,7 +3,7 @@ import Game.Levels.Addition.L03add_comm
 
 World "Addition"
 Level 4
-Title "add_assoc (associativity of addition)"
+Title "Associativity of Addition"
 
 namespace MyNat
 

@@ -2,7 +2,7 @@ import Game.Levels.Implication.L07intro2
 
 World "Implication"
 Level 8
-Title "≠"
+Title "`≠`"
 
 TheoremTab "Peano"
 

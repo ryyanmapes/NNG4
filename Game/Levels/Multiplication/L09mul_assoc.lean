@@ -3,7 +3,7 @@ import Game.Levels.Multiplication.L08add_mul
 
 World "Multiplication"
 Level 9
-Title "mul_assoc"
+Title "`mul_assoc`"
 
 namespace MyNat
 

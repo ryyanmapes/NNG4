@@ -2,7 +2,7 @@ import Game.Levels.Implication.L05succ_inj2
 
 World "Implication"
 Level 6
-Title "intro"
+Title "`intro`"
 
 namespace MyNat
 

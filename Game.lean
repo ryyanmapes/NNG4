@@ -16,14 +16,13 @@ import Game.Levels.AdvMultiplication
 --import Game.Levels.Prime
 --import Game.Levels.StrongInduction
 --import Game.Levels.Hard
-import Game.Levels.Algorithm
 import I18n
 
 -- Here's what we'll put on the title screen
-Title "Natural Number Game"
+Title "The Natural Numbers Game"
 Introduction
 "
-# Welcome to the Natural Number Game
+# Welcome to the Natural Numbers Game
 #### An introduction to mathematical proof.
 
 In this game, we will build the basic theory of the natural

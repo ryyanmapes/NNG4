@@ -4,7 +4,7 @@ import Game.MyNat.Multiplication
 
 World "Tutorial"
 Level 2
-Title "the rw tactic"
+Title "`rw`"
 
 TheoremTab "012"
 

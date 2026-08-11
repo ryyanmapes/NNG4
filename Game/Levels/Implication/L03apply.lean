@@ -2,7 +2,7 @@ import Game.Levels.Implication.L02exact2
 
 World "Implication"
 Level 3
-Title "The `apply` tactic."
+Title "`apply`"
 
 namespace MyNat
 

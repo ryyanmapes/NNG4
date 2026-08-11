@@ -2,7 +2,7 @@ import Game.Levels.AdvAddition.L01add_right_cancel
 
 World "AdvAddition"
 Level 2
-Title "add_left_cancel"
+Title "`add_left_cancel`"
 
 namespace MyNat
 

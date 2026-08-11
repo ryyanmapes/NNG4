@@ -4,7 +4,7 @@ import Game.Levels.Tutorial.L03two_eq_ss0
 
 World "Tutorial"
 Level 7
-Title "add_succ"
+Title "`add_succ`"
 
 TheoremTab "012"
 

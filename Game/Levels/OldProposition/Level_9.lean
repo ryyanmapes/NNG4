@@ -51,6 +51,6 @@ You will need to learn five more tactics: `constructor`, `rcases`,
 `left`, `right`, and `exfalso`,
 but they are all straightforward, and furthermore they are
 essentially the last tactics you
-need to learn in order to complete all the levels of the Natural Number Game,
+need to learn in order to complete all the levels of the Natural Numbers Game,
 including all the 17 levels of Inequality World.
 "

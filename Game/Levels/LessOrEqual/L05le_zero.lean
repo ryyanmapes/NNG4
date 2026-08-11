@@ -2,7 +2,7 @@ import Game.Levels.LessOrEqual.L04le_trans
 
 World "LessOrEqual"
 Level 5
-Title "x ≤ 0 → x = 0"
+Title "`x ≤ 0 → x = 0`"
 
 namespace MyNat
 

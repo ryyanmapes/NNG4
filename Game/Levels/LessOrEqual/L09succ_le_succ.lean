@@ -2,7 +2,7 @@ import Game.Levels.LessOrEqual.L08le_total
 
 World "LessOrEqual"
 Level 9
-Title "succ x ≤ succ y → x ≤ y"
+Title "`succ x ≤ succ y → x ≤ y`"
 
 TheoremTab "≤"
 

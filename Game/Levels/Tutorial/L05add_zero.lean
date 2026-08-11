@@ -3,7 +3,7 @@ import Game.MyNat.Addition
 
 World "Tutorial"
 Level 5
-Title "Adding zero"
+Title "Adding Zero"
 
 namespace MyNat
 

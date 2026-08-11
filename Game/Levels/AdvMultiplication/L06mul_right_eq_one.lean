@@ -2,7 +2,7 @@ import Game.Levels.AdvMultiplication.L05le_mul_right
 
 World "AdvMultiplication"
 Level 6
-Title "mul_right_eq_one"
+Title "`mul_right_eq_one`"
 
 TheoremTab "*"
 

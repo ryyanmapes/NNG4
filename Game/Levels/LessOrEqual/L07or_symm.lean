@@ -2,7 +2,7 @@ import Game.Levels.LessOrEqual.L06le_antisymm
 
 World "LessOrEqual"
 Level 7
-Title "Dealing with `or`"
+Title "`∨`"
 
 namespace MyNat
 

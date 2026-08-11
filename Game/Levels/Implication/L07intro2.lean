@@ -2,7 +2,7 @@ import Game.Levels.Implication.L06intro
 
 World "Implication"
 Level 7
-Title "intro practice"
+Title "`intro` Practice"
 
 namespace MyNat
 

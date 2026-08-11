@@ -4,7 +4,7 @@ import Game.MyNat.Multiplication
 
 World "Tutorial"
 Level 1
-Title "The rfl tactic"
+Title "`rfl`"
 
 TheoremTab "012"
 

@@ -1,9 +1,8 @@
 import Game.Levels.Implication
-import Game.Levels.Algorithm
 
 World "AdvAddition"
 Level 1
-Title "add_right_cancel"
+Title "`add_right_cancel`"
 
 namespace MyNat
 

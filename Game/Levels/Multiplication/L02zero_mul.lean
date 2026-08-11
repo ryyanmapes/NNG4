@@ -2,7 +2,7 @@ import Game.Levels.Multiplication.L01mul_one
 
 World "Multiplication"
 Level 2
-Title "zero_mul"
+Title "`zero_mul`"
 
 namespace MyNat
 

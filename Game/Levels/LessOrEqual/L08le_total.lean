@@ -2,7 +2,7 @@ import Game.Levels.LessOrEqual.L07or_symm
 
 World "LessOrEqual"
 Level 8
-Title "x ≤ y or y ≤ x"
+Title "`≤` is Total 🌶️"
 
 namespace MyNat
 

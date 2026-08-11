@@ -3,7 +3,7 @@ import Game.Levels.Multiplication.L02zero_mul
 
 World "Multiplication"
 Level 3
-Title "succ_mul"
+Title "`succ_mul`"
 
 namespace MyNat
 

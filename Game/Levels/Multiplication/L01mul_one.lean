@@ -3,7 +3,7 @@ import Game.MyNat.Multiplication
 
 World "Multiplication"
 Level 1
-Title "mul_one"
+Title "`mul_one`"
 
 namespace MyNat
 

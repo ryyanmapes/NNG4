@@ -2,7 +2,7 @@ import Game.Levels.LessOrEqual.L01le_refl
 
 World "LessOrEqual"
 Level 2
-Title "0 ≤ x"
+Title "Positivity"
 
 namespace MyNat
 
