@@ -5,7 +5,7 @@ Title "`le_one`"
 
 TheoremTab "≤"
 
-NewTactic exfalso
+VisualUnlockTactic exfalso
 
 namespace MyNat
 
