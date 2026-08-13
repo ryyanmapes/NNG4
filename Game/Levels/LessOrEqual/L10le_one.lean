@@ -5,6 +5,8 @@ Title "`le_one`"
 
 TheoremTab "≤"
 
+NewTactic exfalso
+
 namespace MyNat
 
 /-- `le_one x` is a proof that if `x ≤ 1` then `x = 0` or `x = 1`. -/
