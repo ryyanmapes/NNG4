@@ -22,7 +22,7 @@ so it should be `37 * d + 37`.
 
 Here are the definitions in Lean.
 
-  * `mul_zero a : a * 0 = 0`
+  * `mul_zero m : m * 0 = 0`
   * `mul_succ a d : a * succ d = a * d + a`
 
 In this world, we must not only prove facts about multiplication like `a * b = b * a`,

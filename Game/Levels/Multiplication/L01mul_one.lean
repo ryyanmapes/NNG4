@@ -23,7 +23,7 @@ because we know `1` is a successor.
   product of natural numbers. Internally it is
   via two axioms:
 
-  * `mul_zero a : a * 0 = 0`
+  * `mul_zero m : m * 0 = 0`
 
   * `mul_succ a b : a * succ b = a * b + a`
 

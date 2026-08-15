@@ -22,8 +22,8 @@ import GameServer.Commands
 -- DefinitionDoc Add as "+" "
 -- Addition on `ℕ` is defined through two axioms:
 
--- * `add_zero (a : ℕ) : a + 0 = a`
--- * `add_succ (a d : ℕ) : a + succ d = succ (a + d)`
+-- * `add_zero (n : ℕ) : n + 0 = n`
+-- * `add_succ (a b : ℕ) : a + succ b = succ (a + b)`
 -- "
 
 -- DefinitionDoc Pow as "^" "

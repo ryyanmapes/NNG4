@@ -5,8 +5,6 @@ Title "`le_one`"
 
 TheoremTab "≤"
 
-VisualUnlockTactic exfalso
-
 namespace MyNat
 
 /-- `le_one x` is a proof that if `x ≤ 1` then `x = 0` or `x = 1`. -/

@@ -11,7 +11,7 @@ namespace MyNat
 the usual sum of natural numbers. Internally it is defined
 via the following two hypotheses:
 
-* `add_zero a : a + 0 = a`
+* `add_zero n : n + 0 = n`
 
 * `add_succ a b : a + succ b = succ (a + b)`
 
@@ -25,7 +25,7 @@ NewDefinition Add
 TheoremTab "+"
 
 /--
-`add_zero a` is a proof that `a + 0 = a`.
+`add_zero n` is a proof that `n + 0 = n`.
 
 ## Summary
 
@@ -84,8 +84,8 @@ Let's start with adding `0`.
 ### Adding 0
 
 To make addition agree with our intuition, we should *define* `37 + 0`
-to be `37`. More generally, we should define `a + 0` to be `a` for
-any number `a`. The name of this proof in Lean is `add_zero a`.
+to be `37`. More generally, we should define `n + 0` to be `n` for
+any number `n`. The name of this proof in Lean is `add_zero n`.
 For example `add_zero 37` is a proof of `37 + 0 = 37`,
 `add_zero x` is a proof of `x + 0 = x`, and `add_zero` is a proof
 of `? + 0 = ?`.

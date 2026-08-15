@@ -8,17 +8,17 @@ instance instAdd : Add MyNat where
   add := MyNat.add
 
 /--
-`add_zero a` is a proof of `a + 0 = a`.
+`add_zero n` is a proof of `n + 0 = n`.
 
-`add_zero` is a `simp` lemma, because if you see `a + 0`
-you usually want to simplify it to `a`.
+`add_zero` is a `simp` lemma, because if you see `n + 0`
+you usually want to simplify it to `n`.
 -/
 @[simp, MyNat_decide]
-axiom add_zero (a : MyNat) : a + 0 = a
+axiom add_zero (n : MyNat) : n + 0 = n
 
 /--
-If `a` and `d` are natural numbers, then `add_succ a d` is the proof that
-`a + succ d = succ (a + d)`.
+If `a` and `b` are natural numbers, then `add_succ a b` is the proof that
+`a + succ b = succ (a + b)`.
 -/
 @[MyNat_decide]
-axiom add_succ (a d : MyNat) : a + (succ d) = succ (a + d)
+axiom add_succ (a b : MyNat) : a + (succ b) = succ (a + b)
