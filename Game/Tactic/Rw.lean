@@ -29,7 +29,7 @@ syntax (name := rewriteSeq) "rw" (config)? rwRuleSeq (location)? : tactic
       (throwTacticEx `rewrite · "did not find instance of the pattern in the current goal")
 
 /-- Rewrite only the nth matching occurrence while retaining this game's
-weakened `rw` behaviour (in particular, do not close a reflexive goal). */
+weakened `rw` behaviour (in particular, do not close a reflexive goal). -/
 syntax (name := rwNth) "rw_nth " num rwRuleSeq (location)? : tactic
 
 macro_rules
