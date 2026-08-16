@@ -46,3 +46,5 @@ Conclusion "
 A passing mathematician remarks that with reflexivity and transitivity out of the way,
 you have proved that `≤` is a *preorder* on `ℕ`.
 "
+
+VisualHypInfoOnHyp hxy "x ≤ y" show "Click there-exists hypotheses to name a variable fulfilling the condition."

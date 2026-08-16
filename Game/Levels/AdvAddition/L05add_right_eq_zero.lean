@@ -3,7 +3,7 @@ import Game.Tactic.Cases
 
 World "AdvAddition"
 Level 5
-Title "`add_right_eq_zero`"
+Title "`add_right_eq_zero` 🌶️"
 
 TheoremTab "Peano"
 

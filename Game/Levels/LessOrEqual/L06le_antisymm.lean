@@ -2,7 +2,7 @@ import Game.Levels.LessOrEqual.L05le_zero
 
 World "LessOrEqual"
 Level 6
-Title "Antisymmetry"
+Title "Antisymmetry 🌶️"
 
 namespace MyNat
 
