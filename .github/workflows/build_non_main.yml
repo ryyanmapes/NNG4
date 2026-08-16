@@ -20,6 +20,9 @@ jobs:
 
       - uses: actions/checkout@v4
 
+      - name: Checkout the local GameServer dependency
+        run: git clone --depth 1 https://github.com/ryyanmapes/lean4game ../lean4game
+
       - name: print lean and lake versions
         run: |
           lean --version
