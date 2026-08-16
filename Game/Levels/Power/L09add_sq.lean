@@ -2,7 +2,7 @@ import Game.Levels.Power.L08pow_pow
 
 World "Power"
 Level 9
-Title "`add_sq`"
+Title "`add_sq` 🌶️"
 
 namespace MyNat
 
