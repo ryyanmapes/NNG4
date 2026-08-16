@@ -11,11 +11,17 @@ jobs:
   trigger:
     name: Dispatch Docker build
     runs-on: ubuntu-latest
+    env:
+      LEAN4GAME_PAT: ${{ secrets.LEAN4GAME_PAT }}
     steps:
+      - name: Report unavailable cross-repository trigger
+        if: ${{ env.LEAN4GAME_PAT == '' }}
+        run: echo "::notice::LEAN4GAME_PAT is not configured; dispatch the canonical browser release directly."
       - name: Trigger lean4game docker.yml
+        if: ${{ env.LEAN4GAME_PAT != '' }}
         run: |
           curl -f -X POST \
-            -H "Authorization: token ${{ secrets.LEAN4GAME_PAT }}" \
+            -H "Authorization: token $LEAN4GAME_PAT" \
             -H "Accept: application/vnd.github.v3+json" \
             https://api.github.com/repos/ryyanmapes/lean4game/actions/workflows/docker.yml/dispatches \
             -d '{"ref":"main","inputs":{"nng4_ref":"${{ github.sha }}"}}'
