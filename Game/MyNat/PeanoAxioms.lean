@@ -18,6 +18,9 @@ def pred : ℕ → ℕ
 
 lemma pred_succ (n : ℕ) : pred (succ n) = n := rfl
 
+/-- Every natural number is equal to itself. -/
+theorem reflection (n : ℕ) : n = n := rfl
+
 theorem succ_inj (a b : ℕ) (h : succ a = succ b) : a = b := by
   rw [← pred_succ a, h, pred_succ]
 

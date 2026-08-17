@@ -20,6 +20,9 @@ by manipulating our hypothesis until it becomes the goal. I will
 walk you through this level.
 "
 
+/-- Every natural number is equal to itself. -/
+TheoremDoc MyNat.reflection as "reflection" in "Peano"
+
 /--
 # Statement
 
@@ -46,7 +49,7 @@ pathological function.
 -/
 TheoremDoc MyNat.succ_inj as "succ_inj" in "Peano"
 
-NewTheorem MyNat.succ_inj
+NewTheorem MyNat.reflection MyNat.succ_inj
 VisualEmphasize MyNat.succ_inj
 
 /-- If $x+1=4$ then $x=3$. -/
