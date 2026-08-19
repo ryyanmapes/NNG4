@@ -81,6 +81,9 @@ Statement mul_right_eq_one (x y : ℕ) (h : x * y = 1) : x = 1 := by
   cases separately."
   cases h2 with h0 h1
   · rw [h0, zero_mul] at h
-    Hint (hidden := true) "`tauto` is good enough to solve this goal."
-    tauto
+    Hint (hidden := true) "Now `{h}` says `0 = 1`, which is false. Use `exfalso`, then
+    `apply zero_ne_one` to be left proving `0 = 1`."
+    exfalso
+    apply zero_ne_one
+    exact h
   · exact h1

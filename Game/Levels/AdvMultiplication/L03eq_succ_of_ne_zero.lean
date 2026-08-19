@@ -57,7 +57,28 @@ If you switch the goal and hypothesis in this example, `tauto` would solve it to
 -/
 TacticDoc tauto
 
-NewTactic tauto
+/--
+## Summary
+
+`exfalso` changes any goal at all into `False`.
+
+## Details
+
+Anything at all follows from a false statement, so if you can prove `False` from your
+hypotheses then you can prove any goal. `exfalso` is how you say that to Lean: it throws
+away whatever the goal was and leaves you needing to prove `False` instead.
+
+That is often exactly what you want when you have a hypothesis like `ha : a ≠ 0` and also
+a proof that `a = 0`. Remember that `a ≠ 0` *means* `a = 0 → False`, so once the goal is
+`False` you can apply `ha` to it and be left proving `a = 0`.
+-/
+TacticDoc exfalso
+
+NewTactic tauto exfalso
+
+VisualUnlockTactic exfalso
+
+VisualGoalInfo below false "Another way to solve any goal with False is to drag the `exfalso` tactic onto it first."
 
 /-- `eq_succ_of_ne_zero a` is a proof that `a ≠ 0 → ∃ n, a = succ n`. -/
 TheoremDoc MyNat.eq_succ_of_ne_zero as "eq_succ_of_ne_zero" in "≤"
@@ -74,7 +95,10 @@ Statement eq_succ_of_ne_zero (a : ℕ) (ha : a ≠ 0) : ∃ n, a = succ n := by
   Hint "Start with `cases a with d` to do a case split on `a = 0` and `a = succ d`."
   cases a with d
   · Hint "In the \"base case\" we have a hypothesis `ha : 0 ≠ 0`, and you can deduce anything
-  from a false statement. The `tauto` tactic will close this goal."
-    tauto
+  from a false statement. Change the goal to `False` with `exfalso`, then `apply ha` to be
+  left proving `0 = 0`."
+    exfalso
+    apply ha
+    rfl
   · use d
     rfl
