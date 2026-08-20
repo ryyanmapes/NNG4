@@ -21,7 +21,7 @@ walk you through this level.
 "
 
 /-- Every natural number is equal to itself. -/
-TheoremDoc MyNat.reflection as "reflection" in "+"
+TheoremDoc MyNat.reflection as "reflection" in "Peano"
 
 /--
 # Statement

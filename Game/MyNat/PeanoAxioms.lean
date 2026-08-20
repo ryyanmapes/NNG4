@@ -21,6 +21,12 @@ lemma pred_succ (n : ℕ) : pred (succ n) = n := rfl
 /-- Every natural number is equal to itself. -/
 theorem reflection (n : ℕ) : n = n := rfl
 
+/-- Every natural number is either `0` or the successor of some number. -/
+theorem peano_cases (a : ℕ) : a = 0 ∨ ∃ b, a = succ b :=
+  match a with
+  | 0 => Or.inl rfl
+  | succ b => Or.inr ⟨b, rfl⟩
+
 theorem succ_inj (a b : ℕ) (h : succ a = succ b) : a = b := by
   rw [← pred_succ a, h, pred_succ]
 
