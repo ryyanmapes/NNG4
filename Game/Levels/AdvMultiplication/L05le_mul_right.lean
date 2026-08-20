@@ -2,7 +2,7 @@ import Game.Levels.AdvMultiplication.L04one_le_of_ne_zero
 
 World "AdvMultiplication"
 Level 5
-Title "`le_mul_right`"
+Title "`le_mul_right` 🌶️"
 
 TheoremTab "≤"
 

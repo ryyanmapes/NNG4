@@ -11,6 +11,14 @@ namespace MyNat
 /-- `mul_left_ne_zero a b` is a proof that `a * b ≠ 0 → b ≠ 0`. -/
 TheoremDoc MyNat.mul_left_ne_zero as "mul_left_ne_zero" in "*"
 
+/-- `peano_cases a` is a proof that `a = 0 ∨ ∃ b, a = succ b`: every number is
+either zero or a successor. -/
+TheoremDoc MyNat.peano_cases as "peano_cases" in "Peano"
+
+NewTheorem MyNat.peano_cases
+
+VisualGoalInfo below false "Two new fundamental theorems have been added to a new Peano tab. You may need to use them throughout this world."
+
 Introduction
 "You can use the `contrapose!` tactic here, or follow the manual approach."
 
