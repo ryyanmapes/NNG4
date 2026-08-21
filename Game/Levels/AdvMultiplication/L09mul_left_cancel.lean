@@ -36,8 +36,12 @@ because we now have the flexibility to change `c`.
 "
 
 Statement mul_left_cancel (a b c : ℕ) (ha : a ≠ 0) (h : a * b = a * c) : b = c := by
-  Hint "The way to start this proof is `induction b with d hd generalizing c`."
-  induction b with d hd generalizing c
+  Hint "The way to start this proof is `induction b with d hd generalizing c ha`."
+  -- Generalize `ha` along with `c`. A visual player has introduced neither by
+  -- the time they reach for the induction, so the inductive hypothesis they
+  -- are handed carries both premises; keeping the two modes in step matters
+  -- more here than the shorter `generalizing c`.
+  induction b with d hd generalizing c ha
   · Hint (hidden := true) "Use `mul_eq_zero`. When you have both `a = 0` and `ha : a ≠ 0`, use
   `exfalso` and then `apply ha`."
     rw [mul_zero] at h
@@ -59,10 +63,11 @@ Statement mul_left_cancel (a b c : ℕ) (ha : a ≠ 0) (h : a * b = a * c) : b =
       apply ha
       exact h
     · Hint (hidden := true) "Give `hd` the number `{e}` first. Only once its `∀` is
-      gone can you apply the implication that remains to `{h}`."
+      gone can you apply the implication that remains to `{ha}` and then to `{h}`."
       rw [mul_succ, mul_succ] at h
       apply add_right_cancel at h
       have hde := hd e
-      have h2 := hde h
+      have hde2 := hde ha
+      have h2 := hde2 h
       rw [h2]
       rfl
