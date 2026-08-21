@@ -58,12 +58,11 @@ Statement mul_left_cancel (a b c : ℕ) (ha : a ≠ 0) (h : a * b = a * c) : b =
       exfalso
       apply ha
       exact h
-    · Hint (hidden := true) "Give `hd` the number `{e}` first. Only once its `∀` is gone
-      can you apply the implication that remains to `{ha}` and then to `{h}`."
+    · Hint (hidden := true) "Give `hd` the number `{e}` first. Only once its `∀` is
+      gone can you apply the implication that remains to `{h}`."
       rw [mul_succ, mul_succ] at h
       apply add_right_cancel at h
       have hde := hd e
-      have hde2 := hde ha
-      have h2 := hde2 h
+      have h2 := hde h
       rw [h2]
       rfl
