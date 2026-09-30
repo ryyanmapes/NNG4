@@ -155,7 +155,8 @@ TacticDoc nth_rewrite
 NewTactic rw
 
 NewHiddenTactic «repeat» nth_rewrite
-VisualGoalInfoOnGoal below true "2 * y = 2 * (x + 7)" show "Double-click an equality to enter Transformation Mode."
+VisualGoalInfoOnGoal below true "2 * y = 2 * (x + 7)" show "Double-click the goal equality to enter Transformation Mode."
+VisualTransformBackInfoOnHypothesis show "Click back to rewrite the goal equality instead of a hypothesis."
 VisualGoalInfoOnGoal below true "2 * (x + 7) = 2 * (x + 7)" show "Click once to apply 'rfl' just like before."
 VisualTransformSideInfoOnGoal left "2 * y = 2 * (x + 7)" show "Click this arrow to edit the left-hand side of the goal equality."
 VisualTransformRewriteInfoOnGoal h "y" "2 * y = 2 * (x + 7)" show "Drag the assumed equality $h$ to plug in $x + 7$ for $y$ via the 'rw' tactic."
