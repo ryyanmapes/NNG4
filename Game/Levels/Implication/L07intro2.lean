@@ -6,6 +6,10 @@ Title "`intro` Practice"
 
 namespace MyNat
 
+-- Induction here leads to goals like `0 = 1`, which need `cases`, `exfalso`
+-- or `zero_ne_succ`, none of which is unlocked yet.
+DisabledTactic induction
+
 Introduction
 " Let's see if you can use the tactics we've learnt to prove $x+1=y+1\\implies x=y$.
 Try this one by yourself; if you need help then click on \"Show more help!\".
