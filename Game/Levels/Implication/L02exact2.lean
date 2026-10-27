@@ -31,4 +31,4 @@ exact h
 ```
 "
 
-VisualHypInfoOnHyp h "0 + x = 0 + y + 2" show "You can enter hypotheses in Transformation Mode by double-clicking them."
+VisualHypInfoOnHyp h "0 + x = 0 + y + 2" show "You can enter hypotheses in Transformation Mode by {pc: double-clicking | mobile: double-tapping} them."

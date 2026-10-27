@@ -47,4 +47,4 @@ A passing mathematician remarks that with reflexivity and transitivity out of th
 you have proved that `≤` is a *preorder* on `ℕ`.
 "
 
-VisualHypInfoOnHyp hxy "x ≤ y" show "Click there-exists hypotheses to name a variable fulfilling the condition."
+VisualHypInfoOnHyp hxy "x ≤ y" show "{pc: Click | mobile: Tap} there-exists hypotheses to name a variable fulfilling the condition."

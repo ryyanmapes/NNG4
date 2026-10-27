@@ -41,5 +41,5 @@ Statement (x : ℕ) : x = 37 → x = 37 := by
   exact h
 
 
-VisualGoalInfoOnGoal below true "x = 37 → x = 37" show "Clicking on a goal with an implication will apply the 'intro' tactic to add the left side of the implication as a hypothesis.\n\nNote that this process can be undone by dragging the 'revert' tactic to the new hypothesis."
-VisualGoalInfoOnGoal below false "x = 37" show "Clicking on a goal with an implication will apply the 'intro' tactic to add the left side of the implication as a hypothesis.\n\nNote that this process can be undone by dragging the 'revert' tactic to the new hypothesis."
+VisualGoalInfoOnGoal below true "x = 37 → x = 37" show "{pc: Clicking on | mobile: Tapping} a goal with an implication will apply the 'intro' tactic to add the left side of the implication as a hypothesis.\n\nNote that this process can be undone by dragging the 'revert' tactic to the new hypothesis."
+VisualGoalInfoOnGoal below false "x = 37" show "{pc: Clicking on | mobile: Tapping} a goal with an implication will apply the 'intro' tactic to add the left side of the implication as a hypothesis.\n\nNote that this process can be undone by dragging the 'revert' tactic to the new hypothesis."
